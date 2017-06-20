@@ -12,3 +12,15 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
+
+#IDEA
+*.iml
+*.ipr
+*.iws
+.idea
+out
+target
+*.class
+
+#OSX
+.DS_STORE
