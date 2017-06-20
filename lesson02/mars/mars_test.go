@@ -18,7 +18,7 @@ func TestCalculateSingleStatement(t *testing.T) {
 		t.Log("\tShould throw no error.", checkMark)
 
 		if (buf.String() != "My weight on the surface of Mars is 24.2112 kg, and I would be 21 years old.") {
-			t.Fatal("\tShould be 'My weight on the surface of Mars is 24.2112 kg, and I would be 21 years old.', but was: '", buf.String(), "'")
+			t.Fatal("\tShould be 'My weight on the surface of Mars is 24.2112 kg, and I would be 21 years old.'", ballotX, buf.String())
 		} else {
 			t.Log("\tShould print the correct weight and age.", checkMark)
 		}
@@ -35,7 +35,7 @@ func TestCalculateMultiStatement(t *testing.T) {
 		t.Log("\tShould throw no error.", checkMark)
 
 		if (buf.String() != "My weight on the surface of Mars is 24.2112 kg, and I would be 21 years old.") {
-			t.Fatal("\tShould be 'My weight on the surface of Mars is 24.2112 kg, and I would be 21 years old.', but was: '", buf.String(), "'")
+			t.Fatal("\tShould be 'My weight on the surface of Mars is 24.2112 kg, and I would be 21 years old.'", ballotX, buf.String())
 		} else {
 			t.Log("\tShould print the correct weight and age.", checkMark)
 		}
